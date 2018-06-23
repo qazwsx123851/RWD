@@ -1,0 +1,140 @@
+/* Tools */
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Jua');
+.test{
+    /* border:1px solid pink; */
+}
+
+/* common */
+.shadow{
+    text-shadow: 0 2px #50505062;
+    text-shadow: 0 2px #80808062;
+}
+
+
+
+
+/* <!-- navbar -->*/
+.nav-full{
+    border-radius: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+
+
+
+/*<!-- mainBanner -->*/
+.mainBanner{
+    height: 700px;
+    background: url('../img/background/confortableDesk.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    
+}
+.title{
+    /* width: 300px; */
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+}
+.subTitle{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    border-bottom: 1px solid #fff;
+    width:400px;
+    margin: 0 auto;
+}
+.appForm{
+    width: 300px;
+    max-width: 80%;
+    margin: 30px auto;
+    text-align:center;
+    color:#fff;
+    font-family: 'Jua', sans-serif;
+}
+    
+
+
+
+
+
+/*<!-- break -->*/
+.break{
+    height: 30px;
+    background: #333;
+}
+
+
+
+
+
+/*<!-- slider -->*/
+
+
+
+
+
+/*<!-- list -->*/
+.list{
+    /* background:url('../img/background/bethany-legg-9248.jpg'); */
+    background-position: center;
+    background-size: cover;
+}
+
+
+    /*<!-- job -->*/
+.job{
+    /* padding: 50px;
+    padding-bottom: 25px; */
+    padding: 60px 120px 20px 120px;
+}
+
+    /*<!-- pages -->*/
+.page{
+    text-align: center;
+}
+
+
+    /*<!-- copyright -->*/
+.copyright{
+    height: 25px;
+    color:#333;
+    text-align: center;
+    
+}
+
+/*===========================*/
+@media only screen and (max-width: 768px) { 
+    .title{
+        font-size: 80px;
+    }
+
+    .subTitle{
+        font-size: 20px;
+    }
+
+    .appForm{
+        width: 250px;
+    }
+
+    .job{
+        /* padding: 50px;
+        padding-bottom: 25px; */
+        padding: 50px 50px 10px 50px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+
+}
+
+
+/*===========================*/
